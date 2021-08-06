@@ -1,8 +1,12 @@
+@import "animations";
 @import "base";
 @import "variables";
+
+@import "components";
 
 @import "layout/container";
 @import "layout/content";
 
 @import "layout/header";
+@import "layout/hotelview";
 @import "layout/sidebar";

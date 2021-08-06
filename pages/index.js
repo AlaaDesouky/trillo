@@ -3,6 +3,7 @@ import { Content } from '../components/Content'
 import { HEAD } from '../components/Head'
 
 import { Header } from '../components/header/Header'
+import { HotelView } from '../components/hotelview/HotelView'
 import { Sidebar } from '../components/sidebar/Sidebar'
 
 export default function Home() {
@@ -13,9 +14,7 @@ export default function Home() {
         <Header />
         <Content>
           <Sidebar />
-          <div>
-            HotelView
-          </div>
+          <HotelView />
         </Content>
       </Container>
     </>
