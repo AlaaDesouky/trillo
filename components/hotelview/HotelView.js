@@ -1,6 +1,7 @@
 import { Details } from './details/Details'
 import { Gallery } from './gallery/Gallery'
 import { Overview } from './overview/Overview'
+import { Cta } from './Cta'
 
 export const HotelView = () => {
   return (
@@ -8,6 +9,7 @@ export const HotelView = () => {
       <Gallery />
       <Overview />
       <Details />
+      <Cta />
     </main>
   )
 }
